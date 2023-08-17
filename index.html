@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Panier</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="Panier">
+      <div class="list-of-products">
+        <button onclick="add('jus')">Add</button>
+        <img src="image/jus.jpg" alt="none" class="produit" />
+
+        <button onclick="remove('jus')">Remove</button>
+        <input type="numbre" class="quantity" value="1" id="jus" />
+      </div>
+      <div class="list-of-products">
+        <button onclick="add('chips')">Add</button>
+        <img src="image/chips.jpg" alt="none" class="produit" />
+        <button onclick="remove('chips')">Remove</button>
+        <input type="numbre" class="quantity" value="1" id="chips" />
+      </div>
+      <div class="list-of-products">
+        <button onclick="add('chocolat')">Add</button>
+
+        <img src="image/choclat.jpg" alt="none" class="produit" />
+
+        <button onclick="remove('chocolat')">Remove</button>
+
+        <input type="numbre" class="quantity" value="1" id="chocolat" />
+      </div>
+
+      <p class="total">0 dt</p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+.produit {
+  width: 100px;
+  height: 100px;
+}
+
+.list-of-products {
+  padding-left: 500px;
+}
+.panier {
+  display: flex;
+  flex-direction: row;
+}
+.quantity {
+  width: 50px;
+}
+input {
+  text-align: center;
+}
+.total {
+  background-color: coral;
+  width: 50px;
+  margin-left: 570px;
+  text-align: center;
+}
